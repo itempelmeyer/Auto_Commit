@@ -8,10 +8,10 @@ from subprocess import run
 file_path = "update_log.txt"  # Path to the file to be updated
 repo_path = r"/repo/Auto_Commit"  # Path to your local GitHub repository
 commit_message = "Updated log with current timestamp"
-#time_interval_min = 20 * 60 * 60  # 20 hours in seconds
-time_interval_min = 5 * 60  # 5 minutes in seconds
-#time_interval_max = 40 * 60 * 60  # 40 hours in seconds
-time_interval_max = 20 * 60  # 20 minutes in seconds
+time_interval_min = 18 * 60 * 60  # 18 hours in seconds
+#time_interval_min = 5 * 60  # 5 minutes in seconds
+time_interval_max = 72 * 60 * 60  # 72 hours in seconds
+#time_interval_max = 20 * 60  # 20 minutes in seconds
 
 def append_timestamp_to_file(file_path):
     """Append the current timestamp to the specified file."""
